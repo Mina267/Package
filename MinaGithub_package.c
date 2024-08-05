@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello Mina GitHub Package");
+    printf("\n*****************************\n");
+    printf("* Hello Mina GitHub Package *");
+    printf("\n*****************************\n");
+
     return 0;
 }

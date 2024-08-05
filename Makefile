@@ -1,8 +1,8 @@
 TARGET = MinaGithub_package
-SRC = main.c
+SRC = MinaGithub_package.c
 
 $(TARGET): $(SRC)
-    $(CC) -o $@ $(SRC)
+	$(CC) -o $@ $(SRC)
 
 clean:
-    -rm -f $(TARGET)
+	-rm -f $(TARGET)
