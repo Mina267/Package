@@ -1,8 +1,8 @@
-.PHONY: clean
-.PHONY: mina_app
+TARGET = MinaGithub_package
+SRC = main.c
 
-mina_app: mina_app.c
-	$(CC) -o mina_app mina_app.c
+$(TARGET): $(SRC)
+    $(CC) -o $@ $(SRC)
 
 clean:
-	-rm -f mina_app
+    -rm -f $(TARGET)
